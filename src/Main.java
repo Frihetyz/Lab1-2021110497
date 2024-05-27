@@ -188,7 +188,7 @@ class DirectedGraph {
         StringBuilder result = new StringBuilder();
         Node startNode = nodeMap.get((word1));
         if (startNode == null) {
-            return "\"" + word1 + "\"" + " is not exist!";
+            return "\"" + word1 + "\"" + " does not exist!";
         }
 
         if(!word1.equals("") && word2.equals("")) {
@@ -240,7 +240,7 @@ class DirectedGraph {
         Node endNode = nodeMap.get((word2));
 
         if (endNode == null) {
-            return "\"" + word2 + "\"" + " is not exist!";
+            return "\"" + word2 + "\"" + " does not exist!";
         }
 
         Pair<List<Node>, Integer> shortestPath = dijkstra(startNode, endNode);
