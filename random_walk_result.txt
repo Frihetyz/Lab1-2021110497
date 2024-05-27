@@ -6,4 +6,3 @@ of
 awaits
 us
 to
-new
