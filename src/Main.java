@@ -57,7 +57,7 @@ class DirectedGraph {
     }
 
     public void buildGraphFromText(String text) {
-        // 使用空格替换标点符号和换行符，并转换为小写（可选）
+        // 使用空格替换标点符号和换行符，并转换为小写
         text = text.replaceAll("[^a-zA-Z\\s]", " ").toLowerCase();
         // 按空格分割文本为单词数组
         String[] words = text.split("\\s+");
