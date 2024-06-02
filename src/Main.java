@@ -94,7 +94,7 @@ class DirectedGraph {
         String cmd = "dot -Tpng " + dotFilePath + " -o " + outputImagePath;
         try {
             Process process = Runtime.getRuntime().exec(cmd);
-            // 读取并处理输出（如果需要）
+            // 读取并处理输出
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             String line;
             while ((line = reader.readLine()) != null) {
