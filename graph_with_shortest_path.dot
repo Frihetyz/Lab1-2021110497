@@ -12,7 +12,7 @@ digraph G {
 	"we" -> "start" [label="3"];
 	"trip" -> "to" [label="3"];
 	"not" -> "find" [label="1"];
-	"places" -> "and" [label="1"];
+	"places" -> "and" [label="1", color="red", penwidth=2];
 	"find" -> "out" [label="1"];
 	"find" -> "we" [label="1"];
 	"find" -> "new" [label="3"];
@@ -24,10 +24,10 @@ digraph G {
 	"to" -> "find" [label="5"];
 	"to" -> "not" [label="1"];
 	"to" -> "check" [label="1"];
-	"new" -> "worlds" [label="2", color="red", penwidth=2];
+	"new" -> "worlds" [label="2"];
 	"new" -> "life" [label="4"];
 	"new" -> "civilizations" [label="1"];
-	"new" -> "places" [label="1"];
+	"new" -> "places" [label="1", color="red", penwidth=2];
 	"new" -> "things" [label="1"];
 	"civilizations" -> "to" [label="1"];
 }
